@@ -4,8 +4,10 @@ import App from "./components/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-// var numbers = [3, 56, 2, 48, 5];
+var numbers = [3, 56, 2, 48, 5];
 
+const newNumbers= numbers.map((x)=>{return x*x})
+ console.log(newNumbers);
 ////Map -Create a new array by doing something with each item in an array.
 // const newNumbers = numbers.map(function (x) {
 //   return x * 2;
